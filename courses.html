@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="CSS/nav&footer.css">
+  <link rel="stylesheet" type="text/css" href="CSS/mainstyle.css">
+  <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/e9a231ab96.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+    <title>Study Perfection | Courses</title>
+</head>
+
+<body>
+    <nav>
+        <h1><a class="brand" href="index.html">Study Perfection</a></h1>
+        <div class="nav-bar">
+          <ul>
+            <i id="menu-close" class="fas fa-times"></i>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">ContactUs</a></li>
+            <li><a data-bs-toggle="modal" data-bs-target="#sturegform" href="#">SignUp</a></li>
+            <li><a data-bs-toggle="modal" data-bs-target="#stuloginform" href="#">LogIn</a></li>
+          </ul>
+            <img id="menu-btn" src="img/menu.png" alt="">
+        </div>
+    </nav>
+    <section id="home">
+        <div class="img">
+            <img src="img/course.jpg" alt="">
+            <div class="tx">
+                <h3>courses</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="courses">
+        <h2><span>Courses</span></h2>
+        <p>Best Courses of the website are given below</p>
+        <div class="course-box">
+          <a href="fundamental programming.html">
+           <div class="courses">
+             <img src="img/f-p.jpg" alt="">
+             <div class="details">
+              <h6>Fundamental Programming</h6>
+             </div>
+            </div>
+          </a>
+          <a href="fundamental programming.html">
+           <div class="courses">
+             <img src="img/database.jpg" alt="">
+              <div class="details">
+               <h6>DataBase Management System</h6>
+              </div>
+            </div>
+          </a> 
+          <a href="fundamental programming.html">
+           <div class="courses">
+             <img src="img/abc.jpg" alt="">
+             <div class="details">
+               <h6>Information Security</h6>
+             </div>
+           </div>
+          </a>
+          <a href="fundamental programming.html">
+            <div class="courses">
+             <img src="img/datastructure.jpg" alt="">
+             <div class="details">
+               <h6>Mobile App Development</h6>
+             </div>
+            </div>
+          </a>
+          <a href="fundamental programming.html">
+           <div class="courses">
+             <img src="img/DBMS.jpg" alt="">
+             <div class="details">
+               <h6>Intro To Software Engineering</h6>
+             </div>
+            </div>
+          </a>
+          <a href="fundamental programming.html">
+           <div class="courses">
+              <img src="img/ICA.jpg" alt="">
+              <div class="details">
+               <h6>IT Project Management</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="page-btn">
+            <ul class="btn">
+                <li><a class="active"><a href="#">1</a></li>
+                <li><a href="courses.html">2</a></li>
+                <li><a href="courses.html">3</a></li>
+                <li><a href="courses.html">4</a></li>
+                <li><a href="courses.html">5</a></li>
+                <li><a href="courses.html">6</a></li>
+                <li><a href="courses.html">Next</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Product</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Manage Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Top Product</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Manage Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Top Product</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Manage Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Top Product</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Website</li>
+            <li>Manage Service</li>
+        </div>
+        <div class="subscribe">
+            <h3>Newsletter</h3>
+            <p>You can trust. We only send update courses.</p>
+            <input type="text" name="" placeholder="Your Email Address" id="">
+            <a class="yellow" href="">SUBSCRIBE</a>
+        </div>
+
+        <div class="copyright">
+            <p>copyright 2021 All rights reserved | This Website is made by Study Perfection Team.</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .nav-bar ul').addClass('active')
+        });
+        $('#menu-close').click(function () {
+            $('nav .nav-bar ul').removeClass('active')
+        });
+    </script>
+
+
+</body>
+
+</html>
